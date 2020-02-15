@@ -4,9 +4,9 @@ open class Woman(override var name: String, override var age: Int) : Human {
 
     val sayOfWoman = { name: String, age: Int, hobby: String? ->
         if (hobby == null)
-            "My name is $name. I'm man. I'm $age years old."
+            "My name is $name. I'm woman. I'm $age years old."
         else
-            "My name is $name. I'm man. I'm $age years old. I like to do $hobby."
+            "My name is $name. I'm woman. I'm $age years old. I like to $hobby."
     }
 
     override fun say() {
